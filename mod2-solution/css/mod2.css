@@ -1,22 +1,27 @@
 body{ 
   font-style: italic;
+  position: relative; 
 }
 *{
 	box-sizing: border-box;
 }
 h1{
     text-align: center;
-    width: 50%;
+    width: 100%;
 	font-size: 3em;
 	background-color: black;
 	color: white;
+}
+h1:hover {
+	text-decoration: underline;
+	cursor: pointer;
 }
 .container{
   position: absolute;
   width: 100%;
   border: 1px solid green;
   background-color: lightblue;
-  padding: 20px;
+  padding: 5px;
 }
   
 @media (min-width: 992px) {
