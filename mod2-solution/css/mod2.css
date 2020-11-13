@@ -7,7 +7,11 @@ body{
 }
 h1{
     text-align: center;
-    width: 100%;
+    display: block;
+    width: 50%;
+    position: relative;
+    left: 25%;
+
 	font-size: 3em;
 	background-color: black;
 	color: white;
